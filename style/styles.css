@@ -10,7 +10,7 @@ font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
     font-size: 20px;
-    color: var(--white-color, #FFF);
+    color:  #FFF;
 font-weight: 700;
 border: 0;
     border-radius: 5px;
@@ -19,15 +19,14 @@ padding: 15px 30px;
 }
 
 .section-title{
-    color: var(--dark-01, #181818);
+color: #181818;
 text-align: center;
  font-size: 20px 20px 20px 40px;
-
 font-weight: 700;
 }
 
 .section-description{
-    color: var(--dark-03, #757575);
+    color: #757575;
 text-align: center;
 font-size: 18px;
 font-weight: 400;
@@ -199,20 +198,11 @@ font-weight: 400;
     gap: 30px;
     
   }
-
-  .resume-column{
-    
-  }
-
   .resume-column-title{
-    /* margin-top: 30px; */
     color:  #142a68;
 font-size: 30px;
 font-weight: 700;
   }
-
-
-  .resume-item{}
   .resume-item-title{
     color:  #474747;
     font-size: 25px;
@@ -237,4 +227,33 @@ font-weight: 400;
 
 /* Main Section Style start */
 
+/* footer section start  */
+footer{
+    background: #FFF8F3;
+    display: flex;
+    padding: 130px 200px;
+    margin-top: 40px;
+    gap: 50px;
+}
 
+.footer-column{
+    width: 50%;
+    text-align: left;
+}
+.contact > input[type='text'] , .contact input[type='email'], textarea{
+    display: block;
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    border-radius: 5px;
+background:  #FFF;
+border: 0;
+width: 100%;
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+/* footer section end */
